@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kandyan Heritage | Sahan M Dissanayake</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0805;
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: #120b06;
+            border-bottom: 2px solid #d6a84f;
+        }
+
+        header h2 {
+            color: #d6a84f;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #d6a84f;
+        }
+
+        .hero {
+            min-height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+
+            background:
+                radial-gradient(circle, #4b2913, #0b0805 65%);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            color: #d6a84f;
+        }
+
+        .hero p {
+            margin: 25px auto;
+            max-width: 600px;
+            color: #d0c3ae;
+            line-height: 1.8;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 25px;
+            background: #d6a84f;
+            color: #120b06;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #d6a84f;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            max-width: 700px;
+            margin: auto;
+            color: #cfc2ad;
+            line-height: 1.8;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 40px auto 0;
+        }
+
+        .card {
+            padding: 30px 20px;
+            background: #160d07;
+            border: 1px solid #5a421f;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #f1d58b;
+            margin: 15px 0;
+        }
+
+        .card .icon {
+            font-size: 50px;
+        }
+
+        .quote {
+            padding: 90px 20px;
+            text-align: center;
+            background: #160c06;
+        }
+
+        .quote h2 {
+            font-size: 32px;
+            line-height: 1.5;
+        }
+
+        .quote span {
+            color: #d6a84f;
+        }
+
+        .developer {
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 1px solid #3d2a14;
+        }
+
+        .developer h2 {
+            color: #d6a84f;
+            margin: 15px 0;
+        }
+
+        footer {
+            padding: 30px;
+            text-align: center;
+            background: #050403;
+            color: #888;
+            font-size: 13px;
+        }
+
+        @media (max-width: 700px) {
+
+            .hero h1 {
+                font-size: 38px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>SAHAN M DISSANAYAKE</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#dance">Dancing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<section class="hero" id="home">
+
+    <div>
+
+        <p style="color:#d6a84f; letter-spacing:4px;">
+            SRI LANKAN CULTURAL HERITAGE
+        </p>
+
+        <h1>
+            The Spirit of<br>
+            <span>Kandyan Dance</span>
+        </h1>
+
+        <p>
+            Discover the beauty, rhythm and cultural heritage
+            of traditional Sri Lankan Kandyan Dancing.
+        </p>
+
+        <a href="#dance" class="btn">
+            Explore Dancing
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="about">
+
+    <h2>About Kandyan Dancing</h2>
+
+    <p>
+        Kandyan Dancing is one of Sri Lanka's most beautiful
+        traditional performing arts. It represents our history,
+        culture, rhythm and national heritage through powerful
+        movements, traditional costumes and drumming.
+    </p>
+
+</section>
+
+
+<section class="section" id="dance">
+
+    <h2>Kandyan Dance</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🥁</div>
+            <h3>Traditional Drumming</h3>
+            <p>
+                Experience the powerful rhythms of
+                traditional Sri Lankan drums.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">👑</div>
+            <h3>Ves Dance</h3>
+            <p>
+                Discover the elegance and beauty
+                of the traditional Ves costume.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💃</div>
+            <h3>Cultural Performance</h3>
+            <p>
+                Authentic Kandyan performances
+                representing Sri Lankan culture.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="quote">
+
+    <h2>
+        Dance is not only movement.<br>
+        It is the <span>story of our heritage.</span>
+    </h2>
+
+    <p style="margin-top:20px;">
+        අපේ සංස්කෘතියේ අභිමානය නර්තනයෙන් ලොවට ගෙන යමු.
+    </p>
+
+</section>
+
+
+<section class="developer">
+
+    <p>WEBSITE DESIGN & DEVELOPMENT</p>
+
+    <h2>SAHAN M DISSANAYAKE</h2>
+
+    <p>
+        Web Developer • Creative Designer
+    </p>
+
+</section>
+
+
+<section class="section" id="contact">
+
+    <h2>Contact</h2>
+
+    <p>
+        Interested in Kandyan Dancing performances,
+        cultural events or website development?
+        Get in touch with Sahan M Dissanayake.
+    </p>
+
+    <br>
+
+    <a class="btn" href="mailto:yourmail@gmail.com">
+        Contact Me
+    </a>
+
+</section>
+
+
+<footer>
+
+    © 2026 Sahan M Dissanayake.
+    All Rights Reserved.
+
+</footer>
+
+</body>
+</html>
